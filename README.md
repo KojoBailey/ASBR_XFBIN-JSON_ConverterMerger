@@ -1,6 +1,7 @@
 # XFBIN-JSON Converter & Merger - for All-Star Battle R
 Current supported ASBR file types are:
 - messageInfo
+  
 More coming soon.
 
 ## Conversion
