@@ -33,7 +33,7 @@ Within that folder, have the JSON files you want to merge with the original (ori
   }
 }
 ```
-^ An example for `messageInfo`
+^ An example for `messageInfo`. Include the key (in this case the CRC32 ID) and then all the data within it, with whatever you want modified.
 
 Within these TXTs should be a **priority integer**. This determines the order in which the files are merged, which is useful for dealing with files that try to modify the same values. **Higher number = higher priority (merges after others)**. For example, `apple.json` with priority `5` will override `pear.json` with priority `2`.
 
